@@ -1,0 +1,9 @@
+{
+  "name": "Terraria + Playit.gg",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet:1": {}
+  },
+  "forwardPorts": [7777], // Aunque Terraria usa UDP, Playit lo manejará
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y mono-complete curl gpg && curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null && echo 'deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./' | sudo tee /etc/apt/sources.list.d/playit-cloud.list && sudo apt-get update && sudo apt-get install -y playit"
+}
