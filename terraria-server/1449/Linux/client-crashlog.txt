@@ -1,0 +1,27 @@
+2/25/2025 4:25:41 AM
+System.TypeInitializationException: The type initializer for 'System.Net.IPAddress' threw an exception. ---> System.MissingMethodException: Method not found: !0 modreq(System.Runtime.InteropServices.InAttribute)& System.ReadOnlySpan`1.get_Item(int)
+  at System.Net.IPAddress..ctor (System.Byte[] address, System.Int64 scopeid) [0x00010] in <32fc020d7373456995b3d44fa885e01a>:0 
+  at System.Net.IPAddress..cctor () [0x00032] in <32fc020d7373456995b3d44fa885e01a>:0 
+   --- End of inner exception stack trace ---
+  at Terraria.Netplay.StartServer () [0x00000] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Main.DedServ () [0x00cd9] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Program.RunGame () [0x00077] in <b998d50b13c541e38cc44446c2f4660e>:0 
+
+2/25/2025 4:29:25 AM
+System.TypeInitializationException: The type initializer for 'System.Net.IPAddress' threw an exception. ---> System.MissingMethodException: Method not found: !0 modreq(System.Runtime.InteropServices.InAttribute)& System.ReadOnlySpan`1.get_Item(int)
+  at System.Net.IPAddress..ctor (System.Byte[] address, System.Int64 scopeid) [0x00010] in <32fc020d7373456995b3d44fa885e01a>:0 
+  at System.Net.IPAddress..cctor () [0x00032] in <32fc020d7373456995b3d44fa885e01a>:0 
+   --- End of inner exception stack trace ---
+  at Terraria.Netplay.StartServer () [0x00000] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Main.DedServ () [0x00cd9] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Program.RunGame () [0x00077] in <b998d50b13c541e38cc44446c2f4660e>:0 
+
+2/25/2025 4:34:03 AM
+System.TypeInitializationException: The type initializer for 'System.Net.IPAddress' threw an exception. ---> System.MissingMethodException: Method not found: !0 modreq(System.Runtime.InteropServices.InAttribute)& System.ReadOnlySpan`1.get_Item(int)
+  at System.Net.IPAddress..ctor (System.Byte[] address, System.Int64 scopeid) [0x00010] in <32fc020d7373456995b3d44fa885e01a>:0 
+  at System.Net.IPAddress..cctor () [0x00032] in <32fc020d7373456995b3d44fa885e01a>:0 
+   --- End of inner exception stack trace ---
+  at Terraria.Netplay.StartServer () [0x00000] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Main.DedServ () [0x00cd9] in <b998d50b13c541e38cc44446c2f4660e>:0 
+  at Terraria.Program.RunGame () [0x00077] in <b998d50b13c541e38cc44446c2f4660e>:0 
+
